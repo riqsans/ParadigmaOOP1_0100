@@ -1,5 +1,6 @@
 #ifndef MANUSIA_H
 #define MANUSIA_H
+
 using namespace std;
 
 class manusia {
@@ -8,10 +9,12 @@ public:
     jantung varJantung;
 
     manusia(string pName)
-        : name(pName){
+        : name(pName)
+        {
             cout << name << " hidup\n";
         }
-        ~manusia(){
+        ~manusia()
+        {
             cout << name << "mati\n";
         }
 };
