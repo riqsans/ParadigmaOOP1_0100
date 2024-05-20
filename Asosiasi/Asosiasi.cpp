@@ -25,5 +25,6 @@ public:
         cout << "Dokter \"" << nama << "\" ada\n";
     }
 
+    void tambahPasien(pasien*);
     
 }
